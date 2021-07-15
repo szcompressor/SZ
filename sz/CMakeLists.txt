@@ -71,6 +71,9 @@ target_compile_options(SZ
 	PRIVATE $<$<CONFIG:Debug>:-Wall -Wextra -Wpedantic -Wno-unused-parameter>
 	)
 
+if(BUILD_OPENMP)
+  target_link_libraries(SZ PRIVATE OpenMP::OpenMP_C)
+endif()
 if(BUILD_PASTRI)
   target_compile_definitions(SZ PUBLIC HAVE_PASTRI)
 endif()
