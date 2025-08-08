@@ -13,7 +13,7 @@ The latest and actively developed version is SZ3, which offers improved compress
 
 SZ2 is the previous generation of the SZ compressor. It is still maintained for compatibility with existing workflows but will not receive major new features.
 
-- Repository: [https://github.com/szcompressor/sz](https://github.com/szcompressor/sz2)
+- Repository: [https://github.com/szcompressor/sz](https://github.com/szcompressor/sz)
 
 ## Using SZ2 and SZ3 Together
 
