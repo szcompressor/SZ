@@ -2,22 +2,20 @@
 
 This repository serves as the official entry point to the SZ compression framework.
 
-## Current Recommended Version: SZ3
+## Current Version: SZ3
 
 The latest and actively developed version is SZ3, which offers improved compression ratios, modular C++ design, and support for C, C++, and Python APIs. 
 
 - Repository: [https://github.com/szcompressor/SZ3](https://github.com/szcompressor/SZ3)
 - Installation and usage instructions are available in the SZ3 repository.
 
-## Legacy Version: SZ2
+## Deprecated/Legacy Version: SZ2
 
-SZ2 is the previous generation of the SZ compressor. It is still maintained for compatibility with existing workflows but will not receive major new features.
+SZ2 is the previous generation of the SZ compressor. It is deprecated as Aug 2025.
 
-- Repository: [https://github.com/szcompressor/sz](https://github.com/szcompressor/sz)
+- Repository: [https://github.com/szcompressor/sz2](https://github.com/szcompressor/sz2)
 
-## Using SZ2 and SZ3 Together
-
-It is possible to install and use both SZ2 and SZ3 concurrently for compatibility and migration purposes. Refer to the respective repositories for installation instructions.
+- Existing sz2 users can install sz3 alongside sz2 without conflict for compatibility and migration purposes. Refer to the respective repositories for installation instructions.
 
 ---
 
